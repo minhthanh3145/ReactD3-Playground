@@ -24,7 +24,8 @@ const dataForAreaChart = [
   {x: 200, y: 30},
   {x: 300, y: 50},
   {x: 400, y: 40}, 
-  {x: 1000, y: 80}
+  {x: 500, y: 80},
+  {x: 600, y: 140},
 ];
 
 const dataForAreaChart2 = [
@@ -169,8 +170,8 @@ class Playground extends Component {
         <StyledDiv ref={this.mouseAnimation} />
         <AreaChart 
           data={dataForAreaChart}
-          width={400}
-          height={400}
+          width={800}
+          height={800}
         />
       </div>
     );
