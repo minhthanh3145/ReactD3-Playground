@@ -2,13 +2,13 @@
 
 My playground for fiddling with React and D3.js. 
 
-The project did not start out as a playground, so I put somewhat a little bit more effort than what should go into a playground in structuring this project. 
+The project did not start out as a playground, so I put somewhat a little bit more effort into the structure and reusability.
 
 ## Frontend with React + D3.js
 
-React is used to create re-usable components. 
+React is used to create components.
 
-Some of the components wrap around D3.js logic to generate charts, animations, and effects:
+Most of the components wrap around D3.js logic to generate charts, animations, and effects:
 
 - [X] Line chart
 - [ ] Bar chart
