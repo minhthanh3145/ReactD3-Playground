@@ -1,8 +1,6 @@
 # ReactD3-Playground
 
-My playground for fiddling with React and D3.js. 
-
-The project did not start out as a playground, so I put somewhat a little bit more effort into the structure and reusability.
+My playground for fiddling with React and D3.js. I occcasionally fiddle around with charts and data visualization.
 
 ## Frontend with React + D3.js
 
@@ -10,9 +8,9 @@ React is used to create components.
 
 Most of the components wrap around D3.js logic to generate charts, animations, and effects:
 
-- [X] Line chart
-- [ ] Bar chart
-- [ ] Heat map
+- [X] On-click animation
+- [X] Area chart
+- [X] Heat map
 
 ## Backend with NodeJS 
 
