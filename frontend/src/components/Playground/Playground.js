@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import * as d3 from "d3";
 import styled from 'styled-components';
 import AreaChart from './AreaChart';
+import PackedCircleChart from './PackedCircleChart'
 
 const width = 400,
   height = 400,
@@ -170,9 +171,12 @@ class Playground extends Component {
         <StyledDiv ref={this.mouseAnimation} />
         <AreaChart 
           data={dataForAreaChart}
-          width={800}
-          height={800}
+          width={400}
+          height={400}
         />
+        <PackedCircleChart
+          width={1000}
+          height={1000} />
       </div>
     );
   }
